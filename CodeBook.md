@@ -1,75 +1,54 @@
 # CodeBook 
 
-tBodyAcc-mean-X
-tBodyAcc-mean-Y
-tBodyAcc-mean-Z
+tBodyAcc-mean-X, tBodyAcc-mean-Y, tBodyAcc-mean-Z
 
-tBodyAcc-std-X
-tBodyAcc-std-Y
-tBodyAcc-std-Z
+tBodyAcc-std-X, tBodyAcc-std-Y, tBodyAcc-std-Z
 
 Time domain signals of Body Acceleration, mean and standard deviation for the three
 3D axes X, Y and Z
 
-tGravityAcc-mean-X"
-tGravityAcc-mean-Y"
-tGravityAcc-mean-Z"
+tGravityAcc-mean-X, tGravityAcc-mean-Y, tGravityAcc-mean-Z
 
-tGravityAcc-std-X"
-tGravityAcc-std-Y"
-tGravityAcc-std-Z"
-
+tGravityAcc-std-X,tGravityAcc-std-Y, tGravityAcc-std-Z
 
 Time domain signals of Gravity Acceleration, mean and standard deviation for the three
 3D axes X, Y and Z
 
 
-tBodyAccJerk-mean-X"
-tBodyAccJerk-mean-Y"
-tBodyAccJerk-mean-Z"
+tBodyAccJerk-mean-X, tBodyAccJerk-mean-Y, tBodyAccJerk-mean-Z
 
-tBodyAccJerk-std-X"
-tBodyAccJerk-std-Y"
-tBodyAccJerk-std-Z
+tBodyAccJerk-std-X, tBodyAccJerk-std-Y, tBodyAccJerk-std-Z
 
 Time domain Jerk signals of Body Acceleration, mean and standard deviation for the three
 3D axes X, Y and Z
 
-tBodyGyro-mean-X"
-tBodyGyro-mean-Y"
-tBodyGyro-mean-Z"
+tBodyGyro-mean-X, tBodyGyro-mean-Y, tBodyGyro-mean-Z
 
-tBodyGyro-std-X"
-tBodyGyro-std-Y"
-tBodyGyro-std-Z"
+tBodyGyro-std-X, tBodyGyro-std-Y, tBodyGyro-std-Z
 
 Time domain signals of angular velocity, mean and standard deviation for the three
 3D axes X, Y and Z
 
-tBodyGyroJerk-mean-X"
-tBodyGyroJerk-mean-Y"
-tBodyGyroJerk-mean-Z"
+tBodyGyroJerk-mean-X, tBodyGyroJerk-mean-Y, tBodyGyroJerk-mean-Z
 
-tBodyGyroJerk-std-X"
-tBodyGyroJerk-std-Y"
-tBodyGyroJerk-std-Z"
+tBodyGyroJerk-std-X, tBodyGyroJerk-std-Y, tBodyGyroJerk-std-"
 
 Time domain Jerk signals of angular velocity, mean and standard deviation for the three
 3D axes X, Y and Z
 
-tBodyAccMag-mean"
+tBodyAccMag-mean
 
-[[32]]
-[1] "tBodyAccMag-std"
+tBodyAccMag-std
 
-Time domain signals of Body Acceleration, mean and standard deviation for the three
-3D axes X, Y and Z, using the Euclidean norm.
+Time domain signals of Body Acceleration using the Euclidean norm, mean and standard 
+deviation.
 
-[[33]]
-[1] "tGravityAccMag-mean"
+tGravityAccMag-mean
 
-[[34]]
-[1] "tGravityAccMag-std"
+tGravityAccMag-std
+
+Time domain signals of Body Acceleration using the Euclidean norm, mean and standard 
+deviation.
 
 [[35]]
 [1] "tBodyAccJerkMag-mean"
