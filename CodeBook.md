@@ -4,10 +4,12 @@ Human Activity Recognition Using Smartphones Dataset
 ================================================================== 
 
 * Subject
-	Numeric code identifying one of the 30 the people who took part in the
-	experiment. Numeric value in the range 1-10
+
+	Numeric code identifying one of the 30 the people who took part in the experiment. 
+	Numeric value in the range 1-10
 
 * Activity
+
 	Text identifying one of 6 different activities:
 	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 	
