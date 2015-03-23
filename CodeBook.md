@@ -1,147 +1,106 @@
-# CodeBook 
+# DATA DICTIONARY
+==================================================================
+Human Activity Recognition Using Smartphones Dataset
+================================================================== 
 
-tBodyAcc-mean-X, tBodyAcc-mean-Y, tBodyAcc-mean-Z
+* Subject
+	Numeric code identifying one of the 30 the people who took part in the
+	experiment. Numeric value in the range 1-10
 
-tBodyAcc-std-X, tBodyAcc-std-Y, tBodyAcc-std-Z
+* Activity
+	Text identifying one of 6 different activities:
+	WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+	
+* tBodyAcc-mean-X, tBodyAcc-mean-Y, tBodyAcc-mean-Z, tBodyAcc-std-X, tBodyAcc-std-Y,
+ tBodyAcc-std-Z
 
-Time domain signals of Body Acceleration, mean and standard deviation for the three
-3D axes X, Y and Z
+	Time domain signals of Body Acceleration, mean and standard deviation for the three
+	3D axes X, Y and Z
 
-tGravityAcc-mean-X, tGravityAcc-mean-Y, tGravityAcc-mean-Z
+* tGravityAcc-mean-X, tGravityAcc-mean-Y, tGravityAcc-mean-Z, tGravityAcc-std-X,
+tGravityAcc-std-Y, tGravityAcc-std-Z
 
-tGravityAcc-std-X,tGravityAcc-std-Y, tGravityAcc-std-Z
-
-Time domain signals of Gravity Acceleration, mean and standard deviation for the three
-3D axes X, Y and Z
+	Time domain signals of Gravity Acceleration, mean and standard deviation for the
+	three 3D axes X, Y and Z
 
 
-tBodyAccJerk-mean-X, tBodyAccJerk-mean-Y, tBodyAccJerk-mean-Z
+* tBodyAccJerk-mean-X, tBodyAccJerk-mean-Y, tBodyAccJerk-mean-Z, tBodyAccJerk-std-X,
+tBodyAccJerk-std-Y, tBodyAccJerk-std-Z
 
-tBodyAccJerk-std-X, tBodyAccJerk-std-Y, tBodyAccJerk-std-Z
+	Time domain Jerk signals of Body Acceleration, mean and standard deviation for the 
+	three 3D axes X, Y and Z
 
-Time domain Jerk signals of Body Acceleration, mean and standard deviation for the three
-3D axes X, Y and Z
+* tBodyGyro-mean-X, tBodyGyro-mean-Y, tBodyGyro-mean-Z, tBodyGyro-std-X, tBodyGyro-std-Y,
+ tBodyGyro-std-Z
 
-tBodyGyro-mean-X, tBodyGyro-mean-Y, tBodyGyro-mean-Z
+	Time domain signals of angular velocity, mean and standard deviation for the three 
+	3D axes X, Y and Z
 
-tBodyGyro-std-X, tBodyGyro-std-Y, tBodyGyro-std-Z
+* tBodyGyroJerk-mean-X, tBodyGyroJerk-mean-Y, tBodyGyroJerk-mean-Z, tBodyGyroJerk-std-X,
+tBodyGyroJerk-std-Y, tBodyGyroJerk-std-"
 
-Time domain signals of angular velocity, mean and standard deviation for the three
-3D axes X, Y and Z
+	Time domain Jerk signals of angular velocity, mean and standard deviation for the 
+	three 3D axes X, Y and Z
 
-tBodyGyroJerk-mean-X, tBodyGyroJerk-mean-Y, tBodyGyroJerk-mean-Z
+* tBodyAccMag-mean, tBodyAccMag-std
 
-tBodyGyroJerk-std-X, tBodyGyroJerk-std-Y, tBodyGyroJerk-std-"
+	Time domain signals of Body Acceleration using the Euclidean norm, mean and standard 
+	deviation.
 
-Time domain Jerk signals of angular velocity, mean and standard deviation for the three
-3D axes X, Y and Z
+* tGravityAccMag-mean, tGravityAccMag-std
 
-tBodyAccMag-mean
+	Time domain signals of Gravity Acceleration using the Euclidean norm, mean and 
+	standard deviation.
 
-tBodyAccMag-std
+* tBodyAccJerkMag-mean, tBodyAccJerkMag-std
 
-Time domain signals of Body Acceleration using the Euclidean norm, mean and standard 
-deviation.
+	Time domain Jerk signals of Body Acceleration using the Euclidean norm, mean and 
+	standard deviation.
 
-tGravityAccMag-mean
+* tBodyGyroMag-mean, tBodyGyroMag-std
 
-tGravityAccMag-std
+	Time domain signals of angular velocity using the Euclidean norm, mean and standard 
+	deviation.
 
-Time domain signals of Body Acceleration using the Euclidean norm, mean and standard 
-deviation.
+* tBodyGyroJerkMag-mean, tBodyGyroJerkMag-std
 
-[[35]]
-[1] "tBodyAccJerkMag-mean"
+	Time domain Jerk signals of angular velocity using the Euclidean norm, mean and 
+	standard deviation.
 
-[[36]]
-[1] "tBodyAccJerkMag-std"
+* fBodyAcc-mean-X, fBodyAcc-mean-Y, fBodyAcc-mean-Z, fBodyAcc-std-X, fBodyAcc-std-Y, 
+fBodyAcc-std-Z
 
-[[37]]
-[1] "tBodyGyroMag-mean"
+	Frequency domain signals of Body Acceleration, mean and standard deviation for the 
+	three 3D axes X, Y and Z
 
-[[38]]
-[1] "tBodyGyroMag-std"
+* fBodyAccJerk-mean-X, fBodyAccJerk-mean-Y, fBodyAccJerk-mean-Z, fBodyAccJerk-std-X, 
+fBodyAccJerk-std-Y, fBodyAccJerk-std-Z
 
-[[39]]
-[1] "tBodyGyroJerkMag-mean"
+	Frequency domain Jerk signals of Body Acceleration, mean and standard deviation for 
+	the three 3D axes X, Y and Z
 
-[[40]]
-[1] "tBodyGyroJerkMag-std"
+* fBodyGyro-mean-X, fBodyGyro-mean-Y, fBodyGyro-mean-Z, fBodyGyro-std-X, 
+fBodyGyro-std-Y, fBodyGyro-std-Z
 
-[[41]]
-[1] "fBodyAcc-mean-X"
+	Frequency domain signals of angular velocity, mean and standard deviation for the 
+	three 3D axes X, Y and Z
 
-[[42]]
-[1] "fBodyAcc-mean-Y"
+* fBodyAccMag-mean, fBodyAccMag-std
 
-[[43]]
-[1] "fBodyAcc-mean-Z"
+	Frequency domain signals of Body Acceleration using the Euclidean norm, mean and 
+	standard deviation.
 
-[[44]]
-[1] "fBodyAcc-std-X"
+* fBodyBodyAccJerkMag-mean, fBodyBodyAccJerkMag-std
 
-[[45]]
-[1] "fBodyAcc-std-Y"
+	Frequency domain Jerk signals of Body Acceleration using the Euclidean norm, mean 
+	and standard deviation.
 
-[[46]]
-[1] "fBodyAcc-std-Z"
+* fBodyBodyGyroMag-mean, fBodyBodyGyroMag-std
 
-[[47]]
-[1] "fBodyAccJerk-mean-X"
+	Frequency domain signals of angular velocity using the Euclidean norm, mean and 
+	standard deviation.
 
-[[48]]
-[1] "fBodyAccJerk-mean-Y"
+* fBodyBodyGyroJerkMag-mean, fBodyBodyGyroJerkMag-std
 
-[[49]]
-[1] "fBodyAccJerk-mean-Z"
-
-[[50]]
-[1] "fBodyAccJerk-std-X"
-
-[[51]]
-[1] "fBodyAccJerk-std-Y"
-
-[[52]]
-[1] "fBodyAccJerk-std-Z"
-
-[[53]]
-[1] "fBodyGyro-mean-X"
-
-[[54]]
-[1] "fBodyGyro-mean-Y"
-
-[[55]]
-[1] "fBodyGyro-mean-Z"
-
-[[56]]
-[1] "fBodyGyro-std-X"
-
-[[57]]
-[1] "fBodyGyro-std-Y"
-
-[[58]]
-[1] "fBodyGyro-std-Z"
-
-[[59]]
-[1] "fBodyAccMag-mean"
-
-[[60]]
-[1] "fBodyAccMag-std"
-
-[[61]]
-[1] "fBodyBodyAccJerkMag-mean"
-
-[[62]]
-[1] "fBodyBodyAccJerkMag-std"
-
-[[63]]
-[1] "fBodyBodyGyroMag-mean"
-
-[[64]]
-[1] "fBodyBodyGyroMag-std"
-
-[[65]]
-[1] "fBodyBodyGyroJerkMag-mean"
-
-[[66]]
-[1] "fBodyBodyGyroJerkMag-std"
+	Frequency domain Jerk signals of angular velocity using the Euclidean norm, mean 
+	and standard deviation.
